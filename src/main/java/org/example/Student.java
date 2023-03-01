@@ -19,10 +19,11 @@ class Student{
     }
     public void display()
     {
-        log.info("Student Name:"+this.name+"\n");
-        log.info("Student Grade:"+this.grade+"\n");
-        log.info("Student GPA:"+this.gpa+"\n");
-
+        String s1="Student Name:"+this.name+"\n";
+        String s2="Student Grade:"+this.grade+"\n";
+        String s3="Student GPA:"+this.gpa+"\n";
+        log.info(s1);
+        log.info(s2);
+        log.info(s3);
     }
-
 }
